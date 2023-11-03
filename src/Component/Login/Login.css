@@ -1,0 +1,65 @@
+.sub{
+    background-image: url('https://1.bp.blogspot.com/-h5rDUJhcXSs/YE20PzwBxwI/AAAAAAAAAB4/sQfZYUZagZc9resQ8HrD9ag8-v-BLgFVgCLcBGAsYHQ/s2000/neflixtv.jpg');
+    opacity: .8;
+    background-size: cover;
+
+}
+
+.container{
+    height: 350px;
+    width: 500px;
+    background-color:#010203;
+    position:fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 30px;
+
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+    box-sizing: border-box;
+    
+}
+.container label{
+color: red;
+letter-spacing: 1px;
+font-size: 1rem;
+font-weight: bolder;
+margin-bottom: 10px;
+}
+.container input{
+    border-radius: 5px;
+    box-shadow: 1px;
+    padding: 5px;
+    background:  #1b1b1b;
+    color: white;
+    margin-bottom: 10px;
+    outline:none;
+
+}
+
+.btn{
+    padding: 10px;
+    border-radius: 5px;
+    background-color:#900603;
+    box-shadow: 1px;
+    background-image: linear-gradient(180deg,900603,black);
+    font-weight: bolder;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+.btn:focus{
+    box-shadow:2px;
+    font-weight: 800;
+}
+
+.btn:hover{
+    color: white;
+    font-weight: 800;
+    background-color: #800000;
+}

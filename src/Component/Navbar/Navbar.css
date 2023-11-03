@@ -1,0 +1,44 @@
+.navbar{
+    color:white;
+    background-color: black;
+    margin: 0;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+}
+
+.logo{
+    position: fixed;
+    left:20px;
+    width:80px;
+}
+
+ul{
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    position:fixed;
+    right: 20px;
+    
+}
+ li{
+    float: right;
+}
+li a{
+    display: block;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color:beige
+}
+
+li a:hover{
+    color: red;
+}
+
+
+
+
+

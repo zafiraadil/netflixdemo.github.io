@@ -1,0 +1,30 @@
+.posters img{
+   
+    
+
+}
+.row{
+    
+
+}
+.posters{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+   
+}
+.row h2{
+    margin-top: 30px;
+}
+
+.poster{
+max-height: 250px;
+margin-right: 10px;
+width: 300px;
+}
+
+.smallposter{
+max-height: 150px;
+margin-right: 10px;
+width: 200px;
+}
